@@ -9,4 +9,6 @@ All those useful commands I always use and sometimes I forget!
 
 **2. [Kubernetes commands](./kubernetes-commands/README.md)**
 
+**3. [PostgreSQL commands](./postgresql-commands/README.md)**
+
 ---------------------------------------------------------------

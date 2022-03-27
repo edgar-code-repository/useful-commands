@@ -73,3 +73,16 @@ git merge branch-A
 ```
 
 -----------------------------------------------------------------------
+
+
+**Pulling changes from one branch and take them to another branch:**
+
+```
+git checkout branch-A
+git pull remote-name branch-A
+
+git checkout branch-B
+git merge branch-A
+```
+
+-----------------------------------------------------------------------

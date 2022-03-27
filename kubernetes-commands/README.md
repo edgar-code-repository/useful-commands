@@ -1,7 +1,7 @@
-GIT COMMANDS
+KUBERNETES COMMANDS
 -----------------------------------------------------------------------
 
-A few Kubernetes commands.
+A few commands to watch and destroy some pods on Kubernetes.
 
 -----------------------------------------------------------------------
 
