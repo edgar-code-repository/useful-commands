@@ -24,6 +24,15 @@ git config --list
 
 -----------------------------------------------------------------------
 
+**Viewing commit history:**
+```
+git log
+git log --oneline
+git log --oneline --graph
+```
+
+-----------------------------------------------------------------------
+
 **Adding a remote:**
 ```
 git remote add origin https://github.com/username/repo.git
