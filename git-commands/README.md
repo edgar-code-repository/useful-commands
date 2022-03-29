@@ -56,10 +56,24 @@ git commit -m "message"
 
 ```
 
+-----------------------------------------------------------------------
+
+**Soft and hard reset**
+
 **Undoing the last commit (keeping the changes):**
+
 ```
 git reset --soft HEAD~1
 ```
+
+**Undoing the last commit (this also discard the changes in the working directory):**
+
+```
+git reset --hard HEAD~1
+
+```
+
+HEAD~1 -> is the commit previous to last commit
 
 -----------------------------------------------------------------------
 
