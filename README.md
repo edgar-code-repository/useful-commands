@@ -11,4 +11,6 @@ All those useful commands I always use and sometimes I forget!
 
 **3. [PostgreSQL commands](./postgresql-commands/README.md)**
 
+**4. [Unix commands](./unix-commands/README.md)**
+
 ---------------------------------------------------------------
