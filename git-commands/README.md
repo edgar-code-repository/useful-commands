@@ -33,6 +33,11 @@ git log --oneline --graph
 
 -----------------------------------------------------------------------
 
+**Cloning this repo:**
+```
+git clone https://github.com/edgar-code-repository/useful-commands
+```
+
 **Adding a remote:**
 ```
 git remote add origin https://github.com/username/repo.git
@@ -74,6 +79,28 @@ git reset --hard HEAD~1
 ```
 
 HEAD~1 -> is the commit previous to last commit
+
+-----------------------------------------------------------------------
+
+**Listing branches:**
+```
+git branch
+```
+
+**Creating a new branch:**
+```
+git branch branch-name
+```
+
+**Moving to new branch:**
+```
+git checkout branch-name
+```
+
+**Creating a new branch and moving to new branch in one step:**
+```
+git checkout -b branch-name
+```
 
 -----------------------------------------------------------------------
 
