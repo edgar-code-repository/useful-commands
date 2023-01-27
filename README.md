@@ -3,6 +3,9 @@ USEFUL COMMANDS
 
 All those useful commands I always use and sometimes I forget!
 
+Especially useful after coming back from vacations and feeling
+like you have no idea what you are doing.
+
 ---------------------------------------------------------------
 
 **1. [Git commands](./git-commands/README.md)**
@@ -12,5 +15,7 @@ All those useful commands I always use and sometimes I forget!
 **3. [PostgreSQL commands](./postgresql-commands/README.md)**
 
 **4. [Unix commands](./unix-commands/README.md)**
+
+**5. [Docker commands](./docker-commands/README.md)**
 
 ---------------------------------------------------------------
