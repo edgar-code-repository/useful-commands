@@ -40,4 +40,42 @@ docker ps
 
 ```
 
+**Show logs:**
+
+```
+
+docker logs <container_id>
+
+```
+
+**List images and containers:**
+
+```
+
+docker images
+
+docker images -a
+
+docker container ls
+
+docker container ls -a
+
+```
+
+**Delete container:**
+
+```
+
+docker rm <id or name>
+
+```
+
+**Delete image:**
+
+```
+
+docker rmi <id or name>
+
+```
+
 -----------------------------------------------------------------------
