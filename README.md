@@ -6,6 +6,8 @@ All those useful commands I always use and sometimes I forget!
 Especially useful after coming back from vacations and feeling
 like you have no idea what you are doing.
 
+![NoIdea](screenshots/havenoideawhatimdoing.jpg)
+
 ---------------------------------------------------------------
 
 **1. [Git commands](./git-commands/README.md)**
@@ -16,6 +18,6 @@ like you have no idea what you are doing.
 
 **4. [Unix commands](./unix-commands/README.md)**
 
-**5. [Docker commands](./docker-commands/README.md)**
+**5. [Docker / Docker Compose commands](./docker-commands/README.md)**
 
 ---------------------------------------------------------------
