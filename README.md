@@ -1,10 +1,10 @@
 USEFUL COMMANDS
 ---------------------------------------------------------------
 
-All those useful commands I always use and sometimes I forget!
+**All those useful commands I always use and sometimes I forget!**
 
-Especially useful after coming back from vacations and feeling
-like you have no idea what you are doing.
+**Especially useful after coming back from vacations and feeling
+like you have no idea what you are doing.**
 
 ![NoIdea](screenshots/havenoideawhatimdoing.jpg)
 
@@ -19,5 +19,7 @@ like you have no idea what you are doing.
 **4. [Unix commands](./unix-commands/README.md)**
 
 **5. [Docker / Docker Compose commands](./docker-commands/README.md)**
+
+**6. [Docker examples](./docker-commands/README-DOCKER-EXAMPLES.md)**
 
 ---------------------------------------------------------------
