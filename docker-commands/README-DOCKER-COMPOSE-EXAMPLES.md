@@ -1,0 +1,24 @@
+DOCKER COMPOSE EXAMPLES
+--------------------------------------------------------------
+
+**Running MySQL 5.7**
+
+YAML file:
+
+```
+
+version: '3'
+services:
+  db:
+    container_name: mysql-server-5.7
+    image: mysql:5.7
+    volumes:
+        - ./db_data_volume:/var/lib/mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=password
+    ports:
+        - 3306:3306
+
+```
+
+--------------------------------------------------------------

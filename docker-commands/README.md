@@ -8,19 +8,19 @@ Useful docker and docker compose commands to work with containers.
 **Docker commands**
 
 
-1. Pull image from Docker Hub:
+**1. Pull image from Docker Hub:**
 
 ```
     docker pull <tag_name:version>
 ```
 
-2. Build an image with a Dockerfile (from the same directory where the file is located):
+**2. Build an image with a Dockerfile (from the same directory where the file is located):**
 
 ```
     docker build -t <tag_name> .
 ```
 
-3. Run and stop a container:
+**3. Run and stop a container:**
 
 ```
     docker run -d <tag_name> 
@@ -29,19 +29,25 @@ Useful docker and docker compose commands to work with containers.
 ```
 
 
-4. List running containers:
+**4. List running containers:**
 
 ```
     docker ps
 ```
 
-5. Show logs:
+**5. Show logs:**
 
 ```
     docker logs <container_id>
 ```
 
-6. List images and containers:
+**6. Connect to container using command linwe:**
+
+```
+docker exec -it <container_id> bash
+```
+
+**6. List images and containers:**
 
 ```
     docker images
@@ -53,13 +59,13 @@ Useful docker and docker compose commands to work with containers.
     docker container ls -a
 ```
 
-7. Delete container:
+**7. Delete container:**
 
 ```
     docker rm <id or name>
 ```
 
-8. Delete image:
+**8. Delete image:**
 
 ```
     docker rmi <id or name>
@@ -70,19 +76,19 @@ Useful docker and docker compose commands to work with containers.
 **Docker compose commands**
 
 
-1. Build docker compose project:
+**1. Build docker compose project:**
 
 ```
     docker-compose build
 ```
 
-2. Run containers (en detached mode):
+**2. Run containers (en detached mode):**
 
 ```
     docker-compose up -d
 ```
 
-3. Stop containers:
+**3. Stop containers:**
 
 ```
     docker-compose down
