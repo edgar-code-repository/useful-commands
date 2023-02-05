@@ -22,4 +22,6 @@ like you have no idea what you are doing.**
 
 **6. [Docker examples](./docker-commands/README-DOCKER-EXAMPLES.md)**
 
+**7. [Docker Compose examples](./docker-commands/README-DOCKER-COMPOSE-EXAMPLES.md)**
+
 ---------------------------------------------------------------
