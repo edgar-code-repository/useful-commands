@@ -22,4 +22,33 @@ docker run -p 3306:3306 -v /path/volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=pa
 
 ```
 
+Connecting to MySQL from DBeaver:
+
+![DBeaver](../screenshots/Docker_MySQL_From_DBeaver.png)
+
+--------------------------------------------------------------
+
+**Running Jenkins**
+
+
+Running the container in detached mode (-d option):
+
+```
+
+docker run -p 8080:8080 -p 50000:50000 -d jenkins/jenkins:lts-jdk11
+
+```
+
+Defining a volume, so your configurations are not lost when the container is terminated:
+
+```
+
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -d jenkins/jenkins:lts-jdk11
+
+```
+
+Jenkins running in port 8080 (http://localhost:8080):
+
+![DBeaver](../screenshots/Docker_Jenkins.png)
+
 --------------------------------------------------------------
