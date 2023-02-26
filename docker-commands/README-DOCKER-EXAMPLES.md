@@ -47,8 +47,33 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -d jenk
 
 ```
 
-Jenkins running in port 8080 (http://localhost:8080):
+Jenkins running in port 8080:
 
-![DBeaver](../screenshots/Docker_Jenkins.png)
+![Jenkins](../screenshots/Docker_Jenkins.png)
+
+--------------------------------------------------------------
+
+**Running Sonarqube**
+
+
+Running in detached mode (-d option):
+
+```
+
+docker run -d -p 9000:9000 sonarqube
+
+```
+
+Defining a volume:
+
+```
+
+docker run -d -v /local/path:/opt/sonarqube sonarqube
+
+```
+
+Sonarqube running in port 9000:
+
+![Sonarqube](../screenshots/SonarQube.png)
 
 --------------------------------------------------------------
