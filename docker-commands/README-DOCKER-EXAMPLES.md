@@ -77,3 +77,28 @@ Sonarqube running in port 9000:
 ![Sonarqube](../screenshots/SonarQube.png)
 
 --------------------------------------------------------------
+
+**Running Nexus**
+
+
+Running in detached mode (-d option):
+
+```
+
+docker run -d -p 8081:8081 sonatype/nexus3
+
+```
+
+Defining a volume:
+
+```
+
+docker run -d -p 8081:8081 -v /local/path/nexus-volume:/nexus-data sonatype/nexus3
+
+```
+
+Sonarqube running in port 8081:
+
+![Nexus](../screenshots/Nexus_Repository_Manager.png)
+
+--------------------------------------------------------------
