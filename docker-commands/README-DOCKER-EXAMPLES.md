@@ -24,7 +24,7 @@ docker run -p 3306:3306 -v /path/volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=pa
 
 Connecting to MySQL from DBeaver:
 
-![DBeaver](../screenshots/Docker_MySQL_From_DBeaver.png)
+![DBeaverWithMySQL](../screenshots/Docker_MySQL_From_DBeaver.png)
 
 --------------------------------------------------------------
 
@@ -100,5 +100,30 @@ docker run -d -p 8081:8081 -v /local/path/nexus-volume:/nexus-data sonatype/nexu
 Sonarqube running in port 8081:
 
 ![Nexus](../screenshots/Nexus_Repository_Manager.png)
+
+--------------------------------------------------------------
+
+**Running PostgreSQL 14.2**
+
+
+Running in detached mode (-d option):
+
+```
+
+docker run -e POSTGRES_USER=root -e POSTGRES_PASSWORD=pwd -p 5432:5432 -d postgres:14.2
+
+```
+
+Defining a volume:
+
+```
+
+docker run -e POSTGRES_USER=root -e POSTGRES_PASSWORD=pwd  -p 5432:5432 -v /local/path/postgresql:/var/lib/postgresql -d postgres:14.2
+
+```
+
+Connecting to PostgreSQL from DBeaver:
+
+![DBeaverWithPostgreSQL](../screenshots/PostgreSQLFromDBeaver.png)
 
 --------------------------------------------------------------
