@@ -71,6 +71,12 @@ docker exec -it <container_id> bash
     docker rmi <id or name>
 ```
 
+**9. Force deletion of all images:**
+
+```
+    docker image prune --all --force
+```
+
 -----------------------------------------------------------------------
 
 **Docker compose commands**
