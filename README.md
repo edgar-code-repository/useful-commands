@@ -4,7 +4,7 @@ USEFUL COMMANDS
 **All those useful commands I always use and sometimes I forget!**
 
 **Especially useful after coming back from vacations and feeling
-like you have no idea what you are doing.**
+like...**
 
 ![NoIdea](screenshots/havenoideawhatimdoing.jpg)
 
