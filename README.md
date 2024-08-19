@@ -16,7 +16,7 @@ like...**
 
 **3. [PostgreSQL commands](./postgresql-commands/README.md)**
 
-**4. [Unix commands](./unix-commands/README.md)**
+**4. [Unix/Linux commands](./unix-commands/README.md)**
 
 **5. [Docker / Docker Compose commands](./docker-commands/README.md)**
 
