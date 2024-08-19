@@ -22,3 +22,11 @@ echo "Result: $result"
 ```
 
 -----------------------------------------------------------------------
+
+**Kill a process that runs in a given port (in Ubuntu):**
+
+```
+sudo kill -9 `sudo lsof -t -i:port-number`
+```
+
+-----------------------------------------------------------------------
