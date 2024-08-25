@@ -33,6 +33,14 @@ git log --oneline --graph
 
 -----------------------------------------------------------------------
 
+**Viewing changes in commit:**
+```
+git show
+git show <commit-id>
+```
+
+-----------------------------------------------------------------------
+
 **Cloning this repo:**
 ```
 git clone https://github.com/edgar-code-repository/useful-commands
