@@ -110,6 +110,12 @@ git checkout branch-name
 git checkout -b branch-name
 ```
 
+**Deleting branches (locally and remotely):**
+
+```
+git branch -d localBranchName
+git push origin --delete remoteBranchName
+```
 -----------------------------------------------------------------------
 
 **Pulling changes from and pushing changes to remote:**
